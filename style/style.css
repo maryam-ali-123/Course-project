@@ -3,10 +3,89 @@ h1 {color: RGB(9,40,53);
   font-family: sans-serif;
 	font-size: 50px;
 }
+
+div.contrast {
+  background-color: #000;
+  color: #FFF;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
 .carousel {
 width:600px;
 height:600px;
 }
+
+header {
+  background: #4C28A1;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+header a {
+  color: #FEFEFE;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #FEFEFE;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
 
 .footer_middle p {
   font-family: montserrat;
