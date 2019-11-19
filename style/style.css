@@ -120,3 +120,14 @@ ul.footer_list a:hover {
 .footer_main {
   margin: 20px 0px 20px 0px;
 }
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 80px;
+  height: 80px;
+  text-align: right;
+  text-decoration: none;
+  border-radius: 50%;
+  color: rgb(44,4,81);
+  float: right;
+}
