@@ -87,6 +87,22 @@ nav a:hover::before {
 }
 
 
+.mt-3 {
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 500px;
+}
+
+.col {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
 .footer_middle p {
   font-family: montserrat;
   font-size: 16px;
