@@ -15,7 +15,7 @@ div.contrast {
 
 .carousel {
 width:800px;
-height:800px;
+height:auto;
 }
 
 header {
@@ -225,7 +225,6 @@ ul.footer_list a:hover {
   color: rgb(44,4,81);
   float: right;
 }
-
 
 input[type=text], select, textarea {
   width: 100%;
