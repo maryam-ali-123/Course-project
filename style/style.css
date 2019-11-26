@@ -14,8 +14,8 @@ div.contrast {
 }
 
 .carousel {
-width:600px;
-height:600px;
+width:800px;
+height:800px;
 }
 
 header {
@@ -84,6 +84,21 @@ nav a::before {
 
 nav a:hover::before {
   width: 100%;
+}
+
+.mt-3 {
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 500px;
+}
+
+.col {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 
