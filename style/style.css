@@ -159,7 +159,7 @@ ul.footer_list a:hover {
 
 .hero-cta__form input {
   width: 100%;
-  float: left;
+  float: right;
   border: none;
   background: rgba(0, 0, 0, 0.1);
   border-radius: 8px;
@@ -206,7 +206,7 @@ ul.footer_list a:hover {
   color: rgb(0, 0, 0, 0.5);
 }
 
-  .footer-left {
+.footer-left {
     padding-left: 0px;
     justify-content: flex-start;
   }
@@ -227,6 +227,10 @@ ul.footer_list a:hover {
   float: right;
 }
 
+
+.socials {
+  align-items: center;
+}
 
 input[type=text], select, textarea {
   width: 100%;
