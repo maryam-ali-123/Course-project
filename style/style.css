@@ -19,22 +19,13 @@ height:800px;
 height:auto;
 }
 
-header {
-  background: #4C28A1;
-}
-
-header::after {
+nav::after {
   content: '';
   display: table;
   clear: both;
 }
 
-.logo {
-  float: left;
-  padding: 10px 0;
-}
-
-header a {
+nav a {
   color: #FEFEFE;
   text-decoration: none;
   text-transform: uppercase;
@@ -42,7 +33,21 @@ header a {
 }
 
 nav {
+  background: #4C28A1;
   float: right;
+  width: 100%;
+}
+
+.navbar-brand
+{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  text-align: left;
+  margin-left: 30px;
+  font-size: 30px;
+  margin: 0;
+  background: #4C28A1;
 }
 
 nav ul {
@@ -53,9 +58,8 @@ nav ul {
 
 nav li {
   display: inline-block;
-  margin-left: 70px;
+  margin-left: 120px;
   padding-top: 23px;
-
   position: relative;
 }
 
@@ -266,7 +270,7 @@ input[type=submit]:hover {
   margin-right: 30%;
 }
 .contact-h1 {
-  width: 60%
-  margin-left: 60%
-  margin-right: 60%
+  width: 40%
+  margin-left: 50%
+  margin-right: 30%
 }
