@@ -13,13 +13,17 @@ div.contrast {
  flex-direction: column;
 }
 
-
-}
-
 nav::after {
   content: '';
   display: table;
   clear: both;
+}
+
+nav {
+  background: #4C28A1;
+  float: right;
+  width: 100%;
+  display: flex;
 }
 
 nav a {
@@ -27,12 +31,7 @@ nav a {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 16px;
-}
-
-nav {
-  background: #4C28A1;
-  float: right;
-  width: 100%;
+  color: #000;
 }
 
 .navbar-brand
@@ -51,6 +50,7 @@ nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  display; flex;
 }
 
 nav li {
@@ -58,13 +58,6 @@ nav li {
   margin-left: 120px;
   padding-top: 23px;
   position: relative;
-}
-
-nav a {
-  color: #FEFEFE;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 14px;
 }
 
 nav a:hover {
@@ -76,11 +69,9 @@ nav a::before {
   display: block;
   height: 5px;
   background-color: #444;
-
   position: absolute;
   top: 0;
   width: 0%;
-
   transition: all ease-in-out 250ms;
 }
 
