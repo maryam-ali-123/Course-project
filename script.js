@@ -20,8 +20,8 @@ $(document).ready(function() {
 //     navbar.classList.remove("sticky");
 //   }
 // }
-function addMargin() {
-    window.scrollTo(0, window.pageYOffset - 180);
-}
-
-window.addEventListener('hashchange', addMargin);
+// function addMargin() {
+//     window.scrollTo(0, window.pageYOffset - 180);
+// }
+//
+// window.addEventListener('hashchange', addMargin);
