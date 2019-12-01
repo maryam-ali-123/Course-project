@@ -144,6 +144,11 @@ ul
 list-style-type: none;
 }
 
+footer{
+  position: relative;
+    bottom: 20px;
+    top: -30px;
+}
 
 .footer-socials {
   position: relative; left: 290px;
@@ -179,3 +184,18 @@ list-style-type: none;
   font-size: 12px;
   background-color: #4C28A1;
 }
+#hero-cta-email {
+  border-radius: 5px;
+}
+
+.outer{background:#734e91;  padding:12px}
+.wrap{margin:0 auto; }
+.sub{
+    padding:12px;
+    width:32%;
+    height:150px;
+    background:#734e91;
+    display:table-cell;
+     border-right:solid #a175c4 1px;
+}
+.sub:last-child{border:0px}
