@@ -13,9 +13,11 @@
 <!-- navigation bar -->
   <body>
 
-    <div class="container" id="nav">
-    <a class="navbar-brand" href="#">The scientist</a>
-      <nav>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <a class="navbar-brand" href="index.html">The scientist</a>
         <ul>
           <li><a href="#Environment">Environment</a></li>
           <li><a href="#Health">Health</a></li>
@@ -25,9 +27,12 @@
         </ul>
       </nav>
     </div>
+  </div>
+</div>
+
 
   <!-- carousel -->
-    <div class="container">
+<div class="container-fluid" id="carousel">
       <div class="row">
         <div class="col">
           <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -36,7 +41,7 @@
                 <div class="carousel-caption">
                   <h2>In the battle against deepfakes</h2>
                 </div>
-              <a href="https://www.wired.co.uk/article/deepfakes-ai">  <img class="d-block" src="./images/wired.jpg" alt="AI" height="520" width="800">
+              <a href="https://www.wired.co.uk/article/deepfakes-ai"/>  <img class="d-block" src="./images/wired.jpg" alt="AI" height="520" width="800">
               </div> </a>
               <div class="carousel-item">
                 <div class="carousel-caption">
@@ -74,10 +79,12 @@
             <li><a href="https://www.theatlantic.com/science/archive/2019/11/astronaut-blood-clot/602380/"><h5>An Alarming Discovery in an Astronaut’s Bloodstream</h5></a></li>
           </ol>
           </div>
-
+        </div>
+      </div>
+<a class="anchor" name="Environment"></a>
 <!-- Environment -->
-<div class="container">
-  <div class="row" id="Environment">
+<div class="container-fluid">
+  <div class="row">
     <div class="col">
       <div class="text-center">
         <h2>Environment</h2>
@@ -85,7 +92,8 @@
     </div>
   </div>
 </div>
-      <div class=“container”>
+
+<div class="container-fluid">
         <div class='row'>
           <div class='col'>
             <div class="text-center">
@@ -116,6 +124,7 @@
           </div>
         </div>
       </div>
+
 <!-- Health -->
 <div class="container-fluid">
   <div class="row" id="Health">
@@ -125,8 +134,7 @@
       </div>
     </div>
   </div>
-</div>
-      <div class=“container”>
+
         <div class='row'>
           <div class='col'>
             <div class="media">
@@ -157,6 +165,7 @@
         </div>
       </div>
 
+
 <!-- Space -->
 <div class="container-fluid">
   <div class="row" id="Space">
@@ -166,8 +175,7 @@
       </div>
     </div>
   </div>
-</div>
-      <div class=“container”>
+
         <div class='row'>
           <div class='col'>
             <div class="media">
@@ -175,8 +183,7 @@
                 <div class="text-center">
                   <img class="align-self-center" src="./images/NASA.jpg" alt="Generic placeholder image", height = "225" width = "375">
                     <div class="page-hero d-flex align-items-center justify-content-center">
-                      <a href="https://www.theatlantic.com/science/archive/2019/11/astronaut-blood-clot/602380/"><h4 class="mt-3">
-An Alarming Discovery in an Astronaut’s Bloodstream</h4></a>
+                      <a href="https://www.theatlantic.com/science/archive/2019/11/astronaut-blood-clot/602380/"><h4 class="mt-3">An Alarming Discovery in an Astronaut’s Bloodstream</h4></a>
 </div>
 <p>Astronauts are more than cosmic travelers. They’re also research subjects in the careful study of what exactly outer space does to the human body.</p>
                 </div>
@@ -199,8 +206,9 @@ An Alarming Discovery in an Astronaut’s Bloodstream</h4></a>
         </div>
       </div>
 
+
       <!--Mind-->
-      <div class="container-fluid">
+<div class="container-fluid">
         <div class="row" id="Mind">
           <div class="col">
             <div class="text-center">
@@ -208,10 +216,9 @@ An Alarming Discovery in an Astronaut’s Bloodstream</h4></a>
             </div>
           </div>
         </div>
-      </div>
-            <div class=“container”>
+
               <div class='row'>
-                <div class='col-sm'>
+                <div class='col'>
                   <div class="media">
                     <div class="media-body">
                       <div class="text-center">
@@ -240,8 +247,9 @@ An Alarming Discovery in an Astronaut’s Bloodstream</h4></a>
               </div>
             </div>
 
+
             <!--Tech-->
-            <div class="container-fluid">
+<div class="container-fluid">
               <div class="row" id="Tech">
                 <div class="col">
                   <div class="text-center">
@@ -249,10 +257,9 @@ An Alarming Discovery in an Astronaut’s Bloodstream</h4></a>
                   </div>
                 </div>
               </div>
-            </div>
-                  <div class=“container-fluid”>
+
                     <div class='row'>
-                      <div class='col-sm'>
+                      <div class='col'>
                         <div class="media">
                           <div class="media-body">
                             <div class="text-center">
@@ -269,22 +276,24 @@ An Alarming Discovery in an Astronaut’s Bloodstream</h4></a>
                         <div class="media">
                           <div class="media-body">
                             <div class="text-center">
-                              <img class="align-self-center" src="./images/airfly.jpg" alt="Generic placeholder image", height = "225" width = "375">
+                              <img class="align-self-center" src="./images/airfly.jpg" alt="Airfly", height = "225" width = "375">
                                 <div class="page-hero d-flex align-items-center justify-content-center">
                                   <a href="https://www.theverge.com/2019/11/26/20982261/airpods-in-flight-entertainment-bluetooth-adapter-twelvesouth-airfly-pro-review-price"><h4 class="mt-3">How to use your AirPods with an in-flight entertainment system</h4></a>
                               </div>
-                              <p>The death of the headphone jack on your phone has unintended consequences. For travelers, one of the most annoying ones is that your very fancy Bluetooth headphones won’t work with the seatback entertainment systems on airplanes</p>
+                              <p>The death of the headphone jack on your phone has unintended consequences. For travelers, one of the annoying ones is that the very fancy Bluetooth headphones won’t work with the seatback entertainment systems on airplanes.</p>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
+    </div>
+  </div>
+
 
 
 
 <!---newsletter sign up--->
-<div class = container >
+<div class="container-fluid">
   <div class="row">
     <div class="col">
       <h4>Be the first to know the latest news from The Scientist</h4>
@@ -299,8 +308,8 @@ An Alarming Discovery in an Astronaut’s Bloodstream</h4></a>
       </form>
       </div>
     </div>
-  </div>
-</div>
+
+
 
 
   <footer>
@@ -313,6 +322,7 @@ An Alarming Discovery in an Astronaut’s Bloodstream</h4></a>
       <a href="https://facebook.com/" class="fa fa-facebook"></a>
     </div>
 </footer>
+</div>
 
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" type="text/javascript"></script>
