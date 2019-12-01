@@ -137,3 +137,16 @@ input[type=submit]:hover {
   margin-left: 50%
   margin-right: 30%
 }
+
+ul
+{
+list-style-type: none;
+}
+
+.footer-socials {
+  position: relative; left: 400px;
+}
+
+.footer-newsletter {
+  position: relative;left: 150px;
+}
