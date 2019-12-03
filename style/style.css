@@ -68,6 +68,20 @@ nav a:hover::before {
   width: 100%;
 }
 
+a:link {
+color: #999999;
+}
+a:visited {
+color: #999999;
+}
+a:hover {
+color: #ff3300;
+}
+
+a {
+color: #cc0000;
+}
+
 a.anchor {
     display: block;
     position: relative;
