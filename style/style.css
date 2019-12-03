@@ -250,3 +250,7 @@ footer{
   border-radius: 5px;
 }
 .top-buffer { margin-top:80px; }
+
+.link-carousel {
+  color: white;
+}
