@@ -29,7 +29,7 @@ nav a {
   left: 15px;
   text-align: center;
   margin-left: 52.5px;
-  font-size: 65px;
+  font-size: 75px;
   margin: 0px;
   background: #3333cc;
 }
@@ -66,6 +66,20 @@ nav a::before {
 
 nav a:hover::before {
   width: 100%;
+}
+
+a:link {
+color: #999999;
+}
+a:visited {
+color: #999999;
+}
+a:hover {
+color: #ff3300;
+}
+
+a {
+color: #cc0000;
 }
 
 a.anchor {
@@ -108,12 +122,9 @@ a.anchor {
 }
 
 #logo {
-  margin-top: 40px;
+  margin-top: 100px;
 }
 
-#form {
-  margin-top: 30px;
-}
 
 input[type=text], select, textarea {
   width: 100%;
@@ -133,7 +144,7 @@ input[type=text], select, textarea {
 input[type=submit] {
   background-color: #4CAF50;
   color: white;
-  padding: 6px 20px;
+  padding: 6px 10px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -148,7 +159,7 @@ input[type=submit]:hover {
   width: 40%;
   margin-left: 30%;
   border-radius: 0px;
-  background-color: #b3d9ff;
+  background-color: blue;
   padding: 15px;
   margin-right: 30%;
 }
