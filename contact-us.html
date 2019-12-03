@@ -17,29 +17,32 @@
 
 <!-- heading -->
 <header>
-  <div class="container">
-    <a class="navbar-brand" href="#">The scientist</a>
-
-    <nav>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+      <a class="navbar-brand" href="index.html">The scientist</a>
       <ul>
-        <li><a href="#Environment">Environment</a></li>
-        <li><a href="#Health">Health</a></li>
-        <li><a href="#Mind">Mind</a></li>
-        <li><a href="#Space">Space</a></li>
-        <li><a href="#Space">Technology</a></li>
+        <li><a href="index.html#Environment">Environment</a></li>
+        <li><a href="index.html#Health">Health</a></li>
+        <li><a href="index.html#Space">Space</a></li>
+        <li><a href="index.html#Mind">Mind</a></li>
+        <li><a href="index.html#Tech">Technology</a></li>
       </ul>
     </nav>
   </div>
+</div>
+</div>
 </header>
 
  <h1> <center> Contact Us </center> </h1>
 
-<div class="contact-us" class="container">
-  <div class="row"
+<div class="contact-us" class="container" id="form">
+  <div class="row">
   <form action="action_page.php">
-    <label for="fname">First Name</label> <input type="text" id="fname" name="firstname" placeholder="Your name...">
-    <label for="lname">Last Name</label> <input type="text" id="lname" name="lastname" placeholder="Your last name...">
-    <label for="email">E-mail</label> <input type="text" id="E-mail" name="Email address" placeholder="Your e-mail Address...">
+    <label for="fname">First Name</label> <input type="text" id="fname" name="firstname" placeholder="Your name..." required>
+    <label for="lname">Last Name</label> <input type="text" id="lname" name="lastname" placeholder="Your last name..." required>
+    <label for="email">E-mail</label> <input type="text" id="E-mail" name="Email address" placeholder="Your e-mail Address..." required>
     <label for="country">Country</label>
     <select id="country" name="country">
       <option value="australia">United Kingdom</option>
@@ -47,8 +50,9 @@
     </select>
     <label for="subject">Subject</label>
     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"> </textarea>
-    <input type="submit" value="Submit">
+    <input type="submit" onclick="alert('Thanks for leaving a comment!')" value="Submit">
   </form>
 </div>
 </div>
+
 </html>
