@@ -81,7 +81,7 @@ a.anchor {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    width: 500px;
+    width: 600px;
 }
 
 .col {
@@ -250,7 +250,3 @@ footer{
   border-radius: 5px;
 }
 .top-buffer { margin-top:80px; }
-
-.link-carousel {
-  color: white;
-}
