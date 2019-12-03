@@ -69,13 +69,13 @@ nav a:hover::before {
 }
 
 a:link {
-color: #999999;
+ color: #999999;
 }
 a:visited {
-color: #999999;
+  color: #999999;
 }
 a:hover {
-color: #ff3300;
+  color: #ff3300;
 }
 
 a {
@@ -236,23 +236,23 @@ footer{
   color: #FFFFFF;
 }
 
-  .fa {
-    padding: 15px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-     color: #4C28A1;
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #4C28A1;
   }
-  .fa:hover {
-    opacity: 0.7;
+.fa:hover {
+  opacity: 0.7;
   }
-  a:link {
-    text-decoration: none;
+a:link {
+  text-decoration: none;
 }
 
-  a:hover{
-    color: #4C28A1
+a:hover{
+  color: #4C28A1
   }
 
 .btn {
