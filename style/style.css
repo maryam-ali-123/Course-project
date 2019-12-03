@@ -95,7 +95,7 @@ a.anchor {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    width: 600px;
+    width: 500px;
 }
 
 .col {
